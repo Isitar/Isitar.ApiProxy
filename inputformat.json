@@ -1,0 +1,46 @@
+{
+  "url": "https://my-request-receiver-api.com/api/v1",
+  "method": "POST",
+  "headers": [
+    {
+      "name": "content-type",
+      "value": "application/json"
+    },
+    {
+      "name": "Something",
+      "value": "Somewhat"
+    }
+  ],
+  "params": [
+    {
+      "name": "",
+      "type": "list",
+      "value": [
+        ... more params
+      ]
+    },
+    {
+      "name": "",
+      "type": "obj",
+      "value": [
+        ... more params
+      ]
+    },
+    {
+      "name": "hello-int",
+      "type": "int",
+      "value": "123"
+    },
+    {
+      "name": "hello-float",
+      "type": "float",
+      "value": "123.54"
+    },
+    {
+      "name": "hello-str",
+      "type": "string",
+      "value": "something i like ..."
+    }
+  ]
+}
+
